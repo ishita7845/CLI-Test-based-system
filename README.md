@@ -7,20 +7,20 @@ This project is a Bash-based Test System designed to manage user registration, l
 
 **Sign-Up and Sign-In System**:
 
-Users can create an account with a username and password.
+-Users can create an account with a username and password.
 Existing users can sign in by entering their credentials, which are validated against a CSV file (.user_credentials.csv).
 
 **Test Taking Interface**:
 
-A basic test-taking interface allows users to answer a question within a set timeout.
+-A basic test-taking interface allows users to answer a question within a set timeout.
 Answers are logged and stored in a CSV file (answers.csv).
 If the time runs out while answering a question, the user is automatically logged out.
 
 **Viewing Test Results**:
 
-Users can view their previous test answers, including unanswered questions.
+-Users can view their previous test answers, including unanswered questions.
 A log file (test_system.log) records all activities such as login attempts, test completions, and answer submissions.
 
 **Logging**:
 
-Every major action (e.g., signing in, signing up, answering questions) is logged with a timestamp for future reference and debugging.
+-Every major action (e.g., signing in, signing up, answering questions) is logged with a timestamp for future reference and debugging.
